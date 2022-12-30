@@ -168,7 +168,6 @@ h3 {
 }
 
 button {
-  display: inline-flexbox;
   cursor: pointer;
   color: white;
   background: var(--primary-color);
@@ -177,7 +176,8 @@ button {
   border: none;
   border-radius: var(--border-radius);
   margin-top: 10px;
-  margin-left: 40%; /* button's width is 100/500 (20%), so middle of 80% is 40% */ 
+  margin-left: 40%; 
+  /* button's width is 100/500 (20%), so middle of 80% is 40% */ 
 }
 
 button:hover {
